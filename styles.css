@@ -13,6 +13,8 @@ h1 {
 .card {
   border: none;
   box-shadow: 2px 3px 14px rgb(0 0 0 / 14%);
+  overflow: hidden;
+  transition: 200ms ease-in-out;
 }
 p.lead {
   font-size: 1rem;
@@ -74,4 +76,8 @@ p.lead {
     max-width: 660px;
     width: 90%;
   }
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 5px 14px rgb(0 0 0 / 22%);
 }
